@@ -1,0 +1,11 @@
+Name: search-api
+Host: 0.0.0.0
+Port: 8889
+Auth:
+  AccessSecret: 123123133213aa
+  AccessExpire: 1111111
+UserRpc:
+  Etcd:
+    Hosts:
+      - 101.33.215.195:2369
+    Key: user.rpc
